@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\bin\Debug\net6.0\Day03-Ouestion9.exe
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\bin\Debug\net6.0\Day03-Ouestion9.deps.json
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\bin\Debug\net6.0\Day03-Ouestion9.runtimeconfig.json
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\bin\Debug\net6.0\Day03-Ouestion9.dll
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\bin\Debug\net6.0\Day03-Ouestion9.pdb
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.dll
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\refint\Day03-Ouestion9.dll
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.pdb
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\Day03-Ouestion9.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Program\Day03-Ouestion9\obj\Debug\net6.0\ref\Day03-Ouestion9.dll
