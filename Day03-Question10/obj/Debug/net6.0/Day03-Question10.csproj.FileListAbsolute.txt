@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Program\Day03-Question10\bin\Debug\net6.0\Day03-Question10.exe
+C:\Users\tejua\source\repos\Program\Day03-Question10\bin\Debug\net6.0\Day03-Question10.deps.json
+C:\Users\tejua\source\repos\Program\Day03-Question10\bin\Debug\net6.0\Day03-Question10.runtimeconfig.json
+C:\Users\tejua\source\repos\Program\Day03-Question10\bin\Debug\net6.0\Day03-Question10.dll
+C:\Users\tejua\source\repos\Program\Day03-Question10\bin\Debug\net6.0\Day03-Question10.pdb
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.dll
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\refint\Day03-Question10.dll
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.pdb
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\Day03-Question10.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Program\Day03-Question10\obj\Debug\net6.0\ref\Day03-Question10.dll
