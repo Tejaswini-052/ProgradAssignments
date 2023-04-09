@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\bin\Debug\net6.0\WeekEndAssignment01.exe
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\bin\Debug\net6.0\WeekEndAssignment01.deps.json
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\bin\Debug\net6.0\WeekEndAssignment01.runtimeconfig.json
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\bin\Debug\net6.0\WeekEndAssignment01.dll
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\bin\Debug\net6.0\WeekEndAssignment01.pdb
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.AssemblyInfo.cs
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.dll
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\refint\WeekEndAssignment01.dll
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.pdb
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\WeekEndAssignment01.genruntimeconfig.cache
+C:\Users\tejua\source\repos\WeekEndAssignment\WeekEndAssignment01\obj\Debug\net6.0\ref\WeekEndAssignment01.dll
