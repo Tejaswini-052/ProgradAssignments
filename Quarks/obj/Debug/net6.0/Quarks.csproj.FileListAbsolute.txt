@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Today\Quarks\bin\Debug\net6.0\Quarks.exe
+C:\Users\tejua\source\repos\Today\Quarks\bin\Debug\net6.0\Quarks.deps.json
+C:\Users\tejua\source\repos\Today\Quarks\bin\Debug\net6.0\Quarks.runtimeconfig.json
+C:\Users\tejua\source\repos\Today\Quarks\bin\Debug\net6.0\Quarks.dll
+C:\Users\tejua\source\repos\Today\Quarks\bin\Debug\net6.0\Quarks.pdb
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.dll
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\refint\Quarks.dll
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.pdb
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\Quarks.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Today\Quarks\obj\Debug\net6.0\ref\Quarks.dll
