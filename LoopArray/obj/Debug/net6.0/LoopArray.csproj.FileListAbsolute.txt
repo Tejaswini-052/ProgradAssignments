@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Today\QuestionDay05\bin\Debug\net6.0\LoopArray.exe
+C:\Users\tejua\source\repos\Today\QuestionDay05\bin\Debug\net6.0\LoopArray.deps.json
+C:\Users\tejua\source\repos\Today\QuestionDay05\bin\Debug\net6.0\LoopArray.runtimeconfig.json
+C:\Users\tejua\source\repos\Today\QuestionDay05\bin\Debug\net6.0\LoopArray.dll
+C:\Users\tejua\source\repos\Today\QuestionDay05\bin\Debug\net6.0\LoopArray.pdb
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.dll
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\refint\LoopArray.dll
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.pdb
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\LoopArray.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Today\QuestionDay05\obj\Debug\net6.0\ref\LoopArray.dll
