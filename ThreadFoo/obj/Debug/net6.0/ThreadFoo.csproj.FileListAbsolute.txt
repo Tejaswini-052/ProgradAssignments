@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Today\ThreadFoo\bin\Debug\net6.0\ThreadFoo.exe
+C:\Users\tejua\source\repos\Today\ThreadFoo\bin\Debug\net6.0\ThreadFoo.deps.json
+C:\Users\tejua\source\repos\Today\ThreadFoo\bin\Debug\net6.0\ThreadFoo.runtimeconfig.json
+C:\Users\tejua\source\repos\Today\ThreadFoo\bin\Debug\net6.0\ThreadFoo.dll
+C:\Users\tejua\source\repos\Today\ThreadFoo\bin\Debug\net6.0\ThreadFoo.pdb
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.dll
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\refint\ThreadFoo.dll
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.pdb
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ThreadFoo.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Today\ThreadFoo\obj\Debug\net6.0\ref\ThreadFoo.dll
