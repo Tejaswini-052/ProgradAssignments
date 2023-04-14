@@ -1,0 +1,41 @@
+using Domain_Returning_Strings_;
+namespace Returning_Strings
+{
+    public class FizzBuzzTest
+    {
+        [Fact]
+        public void Test_Fizz_/_Buzz_FizzBuzz()
+        {
+            Assert.Equal("6", FizzbuzzTest.FizzBuzzFunc(7));
+            Assert.Equal("7", FizzbuzzTest.FizzBuzzFunc(2));
+            Assert.Equal("Buzz", FizzbuzzTest.FizzBuzzFunc(5));
+            Assert.Equal("1", FizzbuzzTest.FizzBuzzFunc(1));
+            Assert.Equal("Fizz", FizzbuzzTest.FizzBuzzFunc(3));
+
+        }
+    }
+}
+
+    public class FizzBuzzTest
+    {
+        public static string FizzBuzzFunc(int value)
+        {
+            if (value % 3 == 0 && value % 5 == 0)
+            {
+                return "FizzBuzz";
+            }
+            else if (value % 3 == 0)
+            {
+                return "Fizz";
+            }
+            else if (value % 5 == 0)
+            {
+                return "Buzz";
+            }
+            else
+            {
+                return value.ToString();
+            }
+        }
+    }
+}
