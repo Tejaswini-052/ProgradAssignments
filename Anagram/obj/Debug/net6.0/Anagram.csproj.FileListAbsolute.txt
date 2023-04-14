@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Pro\Anagram\bin\Debug\net6.0\Anagram.exe
+C:\Users\tejua\source\repos\Pro\Anagram\bin\Debug\net6.0\Anagram.deps.json
+C:\Users\tejua\source\repos\Pro\Anagram\bin\Debug\net6.0\Anagram.runtimeconfig.json
+C:\Users\tejua\source\repos\Pro\Anagram\bin\Debug\net6.0\Anagram.dll
+C:\Users\tejua\source\repos\Pro\Anagram\bin\Debug\net6.0\Anagram.pdb
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.dll
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\refint\Anagram.dll
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.pdb
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\Anagram.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Pro\Anagram\obj\Debug\net6.0\ref\Anagram.dll
