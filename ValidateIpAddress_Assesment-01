@@ -1,0 +1,96 @@
+using Domain;
+using FluentAssertions;
+using System.ComponentModel.DataAnnotations;
+
+namespace ValidIpTest
+{
+    public class ValidateIpTest
+    {
+        ValidateIp validateObj = new ValidateIp();
+        [Fact]
+        public void ValidIpAddress()
+        {
+            validateObj.ValidateIpv4Address("192.168.1.1").Should().Be(true);
+        }
+        [Fact]
+        public void InvalidAddress_0()
+        {
+            Assert.False(validateObj.ValidateIpv4Address("192.168.1.0"));
+        }
+        [Fact]
+        public void InvalidAddress_255()
+        {
+            Assert.False(validateObj.ValidateIpv4Address("192.168.1.255"));
+        }
+        [Fact]
+        public void NullAddress()
+        {
+            Assert.Throws<ArgumentNullException>(() => validateObj.ValidateIpv4Address(null));
+        }
+        [Fact]
+        public void EmptyAddress()
+        {
+            validateObj.ValidateIpv4Address(" ").Should().Be(false);
+        }
+
+        [Fact]
+        public void InvalidNumber_lessthan_4_block()
+        {
+            Assert.False(validateObj.ValidateIpv4Address("128.10.21"));
+        }
+        [Fact]
+        public void Invalid_morethan_4_block()
+        {
+            Assert.False(validateObj.ValidateIpv4Address("128.10.21.11.11"));
+        }
+        [Fact]
+        public void All_value_zeros_invalid()
+        {
+            Assert.False(validateObj.ValidateIpv4Address("0.0.0.0"));
+        }
+        [Fact]
+        public void All_value_255_invalid()
+        {
+            Assert.False(validateObj.ValidateIpv4Address("255.255.255.255"));
+        }
+
+    }
+}
+
+
+namespace Domain
+{
+    public class ValidateIp
+    {
+        public bool ValidateIpv4Address(string address)
+        {
+            if (string.IsNullOrEmpty(address))
+            {
+                throw new ArgumentNullException("The IP address value cannot be Empty or Null");
+            }
+            string[] blocks = address.Split('.');
+            if (blocks.Length != 4)
+            {
+                return false;
+            }
+            foreach(string block in blocks)
+            {
+                int value;
+                if(!int.TryParse(block,out value))
+                {
+                    return false;
+                }
+            }
+            if (address.EndsWith(".0") || address.EndsWith(".255"))
+            {
+                return false;
+            }
+            return true;
+        }
+    }
+}
+
+
+
+
+
