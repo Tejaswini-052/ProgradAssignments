@@ -1,0 +1,5 @@
+C:\Users\tejua\source\repos\Pro\Interval\obj\Debug\net6.0\Interval.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Pro\Interval\obj\Debug\net6.0\Interval.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Pro\Interval\obj\Debug\net6.0\Interval.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Pro\Interval\obj\Debug\net6.0\Interval.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Pro\Interval\obj\Debug\net6.0\Interval.csproj.CoreCompileInputs.cache
