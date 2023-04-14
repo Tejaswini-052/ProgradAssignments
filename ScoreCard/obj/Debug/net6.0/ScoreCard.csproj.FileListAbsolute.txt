@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Pro\ScoreCard\bin\Debug\net6.0\ScoreCard.exe
+C:\Users\tejua\source\repos\Pro\ScoreCard\bin\Debug\net6.0\ScoreCard.deps.json
+C:\Users\tejua\source\repos\Pro\ScoreCard\bin\Debug\net6.0\ScoreCard.runtimeconfig.json
+C:\Users\tejua\source\repos\Pro\ScoreCard\bin\Debug\net6.0\ScoreCard.dll
+C:\Users\tejua\source\repos\Pro\ScoreCard\bin\Debug\net6.0\ScoreCard.pdb
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.dll
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\refint\ScoreCard.dll
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.pdb
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ScoreCard.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Pro\ScoreCard\obj\Debug\net6.0\ref\ScoreCard.dll
