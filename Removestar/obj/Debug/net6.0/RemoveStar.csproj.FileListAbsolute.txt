@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\bin\Debug\net6.0\RemoveStar.exe
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\bin\Debug\net6.0\RemoveStar.deps.json
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\bin\Debug\net6.0\RemoveStar.runtimeconfig.json
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\bin\Debug\net6.0\RemoveStar.dll
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\bin\Debug\net6.0\RemoveStar.pdb
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.AssemblyInfo.cs
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.dll
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\refint\RemoveStar.dll
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.pdb
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\RemoveStar.genruntimeconfig.cache
+C:\Users\tejua\source\repos\Pro\ConsoleApp1\obj\Debug\net6.0\ref\RemoveStar.dll
