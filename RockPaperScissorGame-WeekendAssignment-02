@@ -1,0 +1,156 @@
+using Domain1;
+using FluentAssertions.Equivalency;
+using System.Numerics;
+using static Domain1.RockPaperScissorGame;
+
+namespace RockPaperScissor
+{
+    public class RockPaperScissorTest
+    {
+        RockPaperScissorGame Game = new RockPaperScissorGame("PlayerName");
+        [Fact]
+        public void RockBeatsScissors()
+        {
+           
+            int playerChoice = 0;
+            int opponentChoice = 2;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(1, result);
+        }
+
+        [Fact]
+        public void ScissorsBeatenByRock()
+        {
+
+            int playerChoice = 2;
+            int opponentChoice = 0;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(-1, result);
+        }
+
+        [Fact]
+        public void ScissorsBeatsPaper()
+        {
+
+            int playerChoice = 2;
+            int opponentChoice = 1;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(1, result);
+        }
+
+        [Fact]
+        public void PaperBeatenByScissors()
+        {
+
+            int playerChoice = 1;
+            int opponentChoice = 2;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(-1, result);
+        }
+
+        [Fact]
+        public void PaperBeatsRock()
+        {
+
+            int playerChoice = 1;
+            int opponentChoice = 0;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(1, result);
+        }
+
+        [Fact]
+        public void RockBeatenByPaper()
+        {
+
+            int playerChoice = 0;
+            int opponentChoice = 1;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(-1, result);
+        }
+
+
+        [Fact]
+        public void SameChoiceResultsInTie()
+        {
+
+            int playerChoice = 0;
+            int opponentChoice = 0;
+            int result = Game.GetResult(playerChoice, opponentChoice);
+            Assert.Equal(0, result);
+        }
+
+    }
+}
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain1
+{
+    public class RockPaperScissorGame
+    {
+        //Rock=0
+        //Paper=1
+        //Scissor=2
+        private string playerName;
+        private int highestScore = 0;
+        public RockPaperScissorGame(string playerName)
+        {
+            this.playerName = playerName;
+        }
+        public int GetResult(int playerChoice, int opponentChoice)
+        {
+            Random random = new Random();
+        int opponentCoice = random.Next(1,3);
+            if (playerChoice == null)
+            {
+                throw new ArgumentNullException("Value cammot be null");
+            }
+            if (playerChoice == opponentChoice)
+            {
+                return 0; //tie
+            }
+            else if (playerChoice == 0 && opponentChoice == 2) // rock beats scissors
+            {
+                Score++;
+                return 1;
+            }
+            else if (playerChoice == 2 && opponentChoice == 1) // scissors beats paper
+            {
+                Score++;
+                return 1;
+            }
+            else if (playerChoice == 1 && opponentChoice == 0) // paper beats rock
+            {
+                Score++;
+                return 1;
+            }
+            else
+            {
+                Score--;
+                return -1; // opponent wins
+            }
+        }
+
+        public int Score { get; set; } = 0;
+
+        public int HighestScore
+        {
+            get { return highestScore; }
+        }
+        public string PlayerName
+        {
+            get { return playerName; }
+        }
+    }
+}
+
+
+
+
