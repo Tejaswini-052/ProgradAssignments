@@ -1,24 +1,55 @@
-using Domain_Returning_Strings_;
-namespace Returning_Strings
-{
-    public class FizzBuzzTest
-    {
-        [Fact]
-        public void Test_Fizz_/_Buzz_FizzBuzz()
-        {
-            Assert.Equal("6", FizzbuzzTest.FizzBuzzFunc(7));
-            Assert.Equal("7", FizzbuzzTest.FizzBuzzFunc(2));
-            Assert.Equal("Buzz", FizzbuzzTest.FizzBuzzFunc(5));
-            Assert.Equal("1", FizzbuzzTest.FizzBuzzFunc(1));
-            Assert.Equal("Fizz", FizzbuzzTest.FizzBuzzFunc(3));
+using Domain1;
 
+namespace FizzBuzzProblem
+{
+    public class FizzBuzzProblemTest
+    {
+        FizzBuzzClass Obj = new FizzBuzzClass();
+        [Fact]
+        public void TestFizzBuzz_WhenInputIsMultipleOf3_ReturnsFizz()
+        {
+            int input = 9;
+            string expectedOutput = "Fizz";
+            string actualOutput = Obj.FizzBuzzMethod(input);
+            Assert.Equal(expectedOutput, actualOutput);
         }
+
+        [Fact]
+        public void TestFizzBuzz_WhenInputIsMultipleOf5_ReturnsBuzz()
+        {
+            
+            int input = 10;
+            string expectedOutput = "Buzz";
+            string actualOutput = Obj.FizzBuzzMethod(input);
+            Assert.Equal(expectedOutput, actualOutput);
+        }
+
+        [Fact]
+        public void TestFizzBuzz_WhenInputIsMultipleOf3And5_ReturnsFizzBuzz()
+        {
+            int input = 15;
+            string expectedOutput = "FizzBuzz";
+            string actualOutput = Obj.FizzBuzzMethod(input);
+            Assert.Equal(expectedOutput, actualOutput);
+        }
+
+        [Fact]
+        public void TestFizzBuzz_WhenInputIsNotDivisibleBy3Or5_ReturnsNumberAsString()
+        {
+            int input = 7;
+            string expectedOutput = "7";
+            string actualOutput = Obj.FizzBuzzMethod(input);
+            Assert.Equal(expectedOutput, actualOutput);
+        }
+
     }
 }
 
-    public class FizzBuzzTest
+namespace Domain1
+{
+    public class FizzBuzzClass
     {
-        public static string FizzBuzzFunc(int value)
+        public  string FizzBuzzMethod(int value)
         {
             if (value % 3 == 0 && value % 5 == 0)
             {
@@ -39,3 +70,9 @@ namespace Returning_Strings
         }
     }
 }
+
+
+
+
+
+
