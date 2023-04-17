@@ -1,0 +1,15 @@
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\bin\Debug\net6.0\ZeroEvenOdds.exe
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\bin\Debug\net6.0\ZeroEvenOdds.deps.json
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\bin\Debug\net6.0\ZeroEvenOdds.runtimeconfig.json
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\bin\Debug\net6.0\ZeroEvenOdds.dll
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\bin\Debug\net6.0\ZeroEvenOdds.pdb
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.csproj.AssemblyReference.cache
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.AssemblyInfoInputs.cache
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.AssemblyInfo.cs
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.csproj.CoreCompileInputs.cache
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.dll
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\refint\ZeroEvenOdds.dll
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.pdb
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ZeroEvenOdds.genruntimeconfig.cache
+C:\Users\tejua\source\repos\last\ZeroEvenOdd\obj\Debug\net6.0\ref\ZeroEvenOdds.dll
