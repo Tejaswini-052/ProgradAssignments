@@ -1,0 +1,84 @@
+<html>
+<head>
+<style> 
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.circle {
+  background: pink;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes circle {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.triangle {
+padding-top:100px;
+ width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 0;
+  border-bottom: 100px solid red;
+  animation-name: triangle;
+  animation-duration: 4s;
+}
+
+@keyframes triangle {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.trapezoid{
+padding-top:100px;
+    border-bottom: 50px solid blue;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	transform:translate(200px,200px);
+	width: 125px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="square">
+
+</div>
+
+<div class="circle">
+
+</div>
+<div class="triangle">
+
+</div>
+<div class="trapezoid">
+
+</div>
+
+
+</body>
+</html>
