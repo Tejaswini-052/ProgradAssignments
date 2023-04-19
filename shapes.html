@@ -1,0 +1,98 @@
+<html>
+<head>
+<style> 
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.circle {
+  background: pink;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes circle {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.triangle {
+padding-top:100px;
+ width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 0;
+  border-bottom: 100px solid red;
+  animation-name: triangle;
+  animation-duration: 4s;
+}
+
+@keyframes triangle {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.trapezoid{
+    padding-top:50px;
+    border-bottom: 50px solid pink;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	transform:translate(100px,100px);
+	width: 125px;
+}
+#skewed {
+   transition: all 2s ease;
+   -webkit-transition: all 2s ease;
+   -moz-transition: all 2s ease;
+   -ms-transition: all 2s ease;
+   -o-transition: all 2s ease;
+}
+#skewed:hover {
+   transform: perspective(500px) rotateY(45deg);
+   -webkit-transform: perspective(500px) rotateY(45deg);
+   -moz-transform: perspective(500px) rotateY(45deg);
+   -ms-transform: perspective(500px) rotateY(45deg);
+   -o-transform: perspective(500px) rotateY(45deg);
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="square">
+
+</div>
+
+<div class="circle">
+
+</div>
+<div class="triangle">
+
+</div>
+<div class="trapezoid" id="skewed">
+<b>Hover on me!</b>
+</div>
+
+
+</body>
+</html>
