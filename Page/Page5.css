@@ -1,0 +1,48 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.move{
+	width:200px;
+	height:200px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.move1{
+	width:200px;
+	height:200px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.move2{
+	width:200px;
+	height:200px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.move3{
+	width:200px;
+	height:200px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}

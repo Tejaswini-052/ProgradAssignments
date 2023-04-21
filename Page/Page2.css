@@ -1,0 +1,51 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pulse{
+	width:200px;
+	height:200px;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+.pulse1{
+	width:200px;
+	height:200px;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+.pulse2{
+	width:200px;
+	height:200px;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+.pulse3{
+	width:200px;
+	height:200px;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
