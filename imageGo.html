@@ -1,0 +1,42 @@
+<html>
+<body>
+<div>
+  <button id="add-image">Add Image</button>
+  <button id="remove-image">Remove Image</button>
+  <button id="popup">Pop image</button>
+  <img id="image" src="cat1.jpg" alt="Image" style="width:500px;height:500px;">
+</div>
+<script>
+
+const addImageBtn = document.querySelector('#add-image');
+addImageBtn.addEventListener('click', () => {
+  const imageUrl = prompt('Enter Image URL:');
+  if (imageUrl) {
+    const image = document.querySelector('#image');
+    image.src = imageUrl;
+  }
+});
+
+
+const removeImageBtn = document.querySelector('#remove-image');
+removeImageBtn.addEventListener('click', () => {
+  const image = document.querySelector('#image');
+  image.src = '#';
+});
+
+
+const myImage = document.getElementById('image');
+const pop = document.querySelector('#popup');
+pop.addEventListener('click', () => {
+   window.open(myImage.src, 'imagePopup', 'width=500,height=500');
+});
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
