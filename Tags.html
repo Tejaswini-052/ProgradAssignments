@@ -1,0 +1,91 @@
+<html>
+<head>
+</head>
+<body id="main">
+
+<div id="parent">
+<h5 id="h5"></h5>
+      This is a parent division
+       <div id="One"><p>This is a Child one </p>
+	   <button id="child1">ChildOne</button>
+       </div>
+	   
+	   <div id="Two"><p>This is a child two</p>
+        <h1>HI two</h1>
+       </div>
+	   
+     <div id="Three"><p>This is a child three</p>
+	 <h1>HI three</h1>
+	</div>
+	
+	<div id="Four"><p>This is a child four</p>
+     <h2>Four Yeah!<h2>
+	</div>
+	
+	<div id="Five"><p>This is a child five</p>
+	<h2>HI two</h1>
+
+	</div>
+	
+	<div id="Six"><p>This is a child six</p>
+
+	</div>
+	<div id="Seven"><p>This is a child seven</p>
+
+	</div>
+	<div id="Eight"><p>This is a child eight</p>
+
+	</div>
+	<div id="Nine"><p>This is a child nine</p>
+
+	</div>
+	<div id="Ten"><p>This is a child ten </p>
+
+</div>
+<p> This is paragraph tag</p>
+<h1> H1 Tag Here</h1>
+<h2>H2 Tag Here</h2>
+<h3>H3 Tag Here</h3>	   
+	   
+	  </div>
+
+<script>
+	document.getElementById("child1").addEventListener("click", message);
+	function message() {
+	  alert("Hi Im first child");
+}
+
+/*let a = document.getElementsByTagName("div");
+document.getElementById("h5").innerHTML = a[0].innerHTML;*/
+
+let s= document.getElementById("Six").innerHTML.parentNode.nodeValue;
+document.getElementById("h5").innerHTML=s.parentNode;
+console.log(s);
+
+/*let b= a.firstChild;
+let sib=document.getElementById("parent").previousSibling.text;
+console.log(sib);
+let b= a.firstChild;
+let last= a.lastChild;
+console.log("Last",last);
+console.log("Parent",a);
+console.log("FirstChild",b);
+document.getElementById("Three").innerHTML = document.getElementById("Four").firstChild.nodeValue;
+document.getElementById("Five").innerHTML = document.body.innerHTML;
+document.getElementById("Six").innerHTML = document.getElementById("Seven").nodeType;
+let d=a.lastChild;
+console.log(d);
+let e = document.getElementById("Four").nextSibling;
+let f = document.getElementById("Nine").previousSibling
+let yeah = document.getElementById("parent").innerHTML;
+console.log(yeah);*/
+
+
+</script>
+
+</body>
+
+
+
+
+</html>
