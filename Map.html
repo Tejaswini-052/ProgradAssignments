@@ -1,0 +1,53 @@
+<html>
+<body>
+<div class="div">
+<p id="marks">The average marks is :</p>
+</div>
+<script>
+
+
+let marks = new Map();
+marks.set("Maths",49);
+marks.set("Phy",50);
+marks.set("Chemistry",47);
+marks.set("English",41);
+marks.set("Kannada",42);
+marks.forEach(function(k,v){console.log(k,v)});
+
+let num1= marks.get("Maths");
+let num2= marks.get("Phy");
+let num3= marks.get("Chemistry");
+let avg=(num1+num2+num3)/3;
+console.log(avg);
+
+/*
+let sum = 0;
+for (let value of marks.values()) {
+  sum += value;
+}
+let avg1= sum/3;
+console.log((avg1));
+*/
+
+let a=document.getElementsByClassName("div");
+document.getElementById("marks").innerHTML= a[0].innerHTML+avg;
+
+
+
+let number = new Set();
+number.add(3);
+number.add(13);
+number.add(11);
+number.add(12);
+number.add(13);
+console.log(number);
+number.delete(11);
+console.log(number);
+console.log(number.has(11));
+number.clear();
+
+</script>
+
+</body>
+
+</html>

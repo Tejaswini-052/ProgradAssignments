@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Navigation </title>
+  </head>
+  <body>
+    <div id="parentdiv">
+      <h1>This is Tejaswini</h1>
+      <p>Example for dom</p>
+      <ul>
+        <li>Mango</li>
+        <li>Carrot</li>
+        <li>Grapes</li>
+      </ul>
+    </div>
+    <script>
+
+      const parentdiv = document.getElementById('parentdiv');
+      const firstChild = parentdiv.firstChild;
+      const lastChild = parentdiv.lastChild;
+      const allLi = parentdiv.querySelectorAll('ul li');
+      const parent = parentdiv.parentNode;
+      console.log( parentdiv);
+      console.log( firstChild);
+      console.log(lastChild);
+      console.log(allLi);
+      console.log(parent);
+    </script>
+  </body>
+</html>
