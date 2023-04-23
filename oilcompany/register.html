@@ -1,0 +1,135 @@
+<html>
+<head>
+	<title>Registration - Cooking Oil Company</title>
+	<style>
+	body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #ffa500 ;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffa500 ;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Cooking Oil Company</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Registration</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" required>
+				<br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" required>
+				<br>
+				<label for="confirm-password">Confirm Password:</label>
+				<input type="password" id="confirm-password" required>
+				<br>
+				<button type="submit" onclick="registerUser()">Register</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Cooking Oil Company</p>
+	</footer>
+
+	<script>
+	let registeredUsers = [];
+
+function registerUser() {
+    event.preventDefault();
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let confirmPassword = document.getElementById("confirm-password").value;
+    if (password !== confirmPassword) {
+        alert("Passwords do not match. Please try again.");
+        return false;
+    }
+    let user = {
+        username: username,
+        email: email,
+        password: password
+    };
+    registeredUsers.push(user);
+    alert("Registration Successful!");
+}
+
+function loginUser() {
+    event.preventDefault();
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+    for (let i = 0; i < registeredUsers.length; i++) {
+        if (username === registeredUsers[i].username && password === registeredUsers[i].password) {
+            alert("Login Successful!");
+            return true;
+        }
+    }
+    alert("Invalid username or password. Please try again.");
+    return false;
+}
+
+	
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cooking Oil Store</title>
+	<link rel="stylesheet" href="styleoil.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1>Cooking Oil Store</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="shop.html">Shop US</a></li>
+				<li><a href="aboutus.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="banner">
+			<h2>Welcome to Cooking Oil Store</h2>
+			<p>Explore our range of high-quality cooking oils.</p>
+		</section>
+		<section class="products">
+			<div class="product">
+				<img src="olive.jpg" alt="Olive Oil">
+				<h3>Olive Oil</h3>
+				<p>Price: Rs.10</p>
+				<button onclick="addToCart()">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="coconut.jpg" alt="Canola Oil">
+				<h3>Canola Oil</h3>
+				<p>Price: Rs.8</p>
+				<button onclick="addToCart()">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="coconut.jpg" alt="Coconut Oil">
+				<h3>Coconut Oil</h3>
+				<p>Price: Rs.12</p>
+				<button onclick="addToCart()">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="avacado.jpg" alt="Sesame Oil">
+				<h3>Sesame Oil</h3>
+				<p>Price: Rs.15</p>
+				<button onclick="addToCart()">Add to Cart</button>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Cooking Oil Store. All rights reserved.</p>
+	</footer>
+	<script>
+	let cartItems = 0;
+
+function addToCart() {
+	cartItems++;
+	alert("Item added to cart!");
+	updateCart();
+}
+
+function updateCart() {
+	let cartButton = document.getElementById("cart-button");
+	cartButton.innerText = "Cart (" + cartItems + ")";
+}
+
+	</script>
+</body>
+</html>

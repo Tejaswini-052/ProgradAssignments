@@ -1,0 +1,152 @@
+<html>
+<head>
+	<title>Login - Cooking Oil Company</title>
+	<style>
+	/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #ffa500;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Main styles */
+main {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+section {
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+ 
+/* Footer styles */
+footer {
+  background-color: #ffa500;
+  bottom: 0;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+	
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Cooking Oil Company</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Login</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" required>
+				<br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" required>
+				<br>
+				<button type="submit" onclick="loginUser()">Login</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Cooking Oil Company</p>
+	</footer>
+
+	<script>
+	let registeredUsers = [];
+
+function registerUser() {
+    event.preventDefault();
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let confirmPassword = document.getElementById("confirm-password").value;
+    if (password !== confirmPassword) {
+        alert("Passwords do not match. Please try again.");
+        return false;
+    }
+    let user = {
+        username: username,
+        email: email,
+        password: password
+    };
+    registeredUsers.push(user);
+    alert("Registration Successful!");
+}
+
+function loginUser() {
+    event.preventDefault();
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+    for (let i = 0; i < registeredUsers.length; i++) {
+        if (username === registeredUsers[i].username && password === registeredUsers[i].password) {
+            alert("Login Successful!");
+            return true;
+        }
+    }
+    alert("Invalid username or password. Please try again.");
+    return false;
+}
+
+	
+	
+	</script>
+
+</body>
+</html>
